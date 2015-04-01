@@ -13,6 +13,7 @@
 		858D436D1ACC862C00CD22D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858D436C1ACC862C00CD22D2 /* Images.xcassets */; };
 		858D43701ACC862C00CD22D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 858D436E1ACC862C00CD22D2 /* LaunchScreen.xib */; };
 		858D437C1ACC862D00CD22D2 /* TouchIDDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858D437B1ACC862D00CD22D2 /* TouchIDDemoTests.swift */; };
+		858D43881ACC882C00CD22D2 /* EditNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858D43871ACC882C00CD22D2 /* EditNoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		858D43751ACC862C00CD22D2 /* TouchIDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchIDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		858D437A1ACC862D00CD22D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		858D437B1ACC862D00CD22D2 /* TouchIDDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchIDDemoTests.swift; sourceTree = "<group>"; };
+		858D43871ACC882C00CD22D2 /* EditNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditNoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				858D43651ACC862C00CD22D2 /* AppDelegate.swift */,
 				858D43671ACC862C00CD22D2 /* ViewController.swift */,
+				858D43871ACC882C00CD22D2 /* EditNoteViewController.swift */,
 				858D43691ACC862C00CD22D2 /* Main.storyboard */,
 				858D436C1ACC862C00CD22D2 /* Images.xcassets */,
 				858D436E1ACC862C00CD22D2 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				858D43681ACC862C00CD22D2 /* ViewController.swift in Sources */,
+				858D43881ACC882C00CD22D2 /* EditNoteViewController.swift in Sources */,
 				858D43661ACC862C00CD22D2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

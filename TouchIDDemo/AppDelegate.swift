@@ -41,6 +41,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    func getPathOfDataFile() -> String {
+        let pathsArray = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)
+        let documentsPath = pathsArray[0] as String
+        let dataFilePath = documentsPath.stringByAppendingPathComponent("notesData")
+        
+        return dataFilePath
+    }
 
+    func checkIfDataFileExists() -> Bool {
+        if NSFileManager.defaultManager().fileExistsAtPath(getPathOfDataFile()) {
+            return true
+        }
+        return false
+    }
 }
 
